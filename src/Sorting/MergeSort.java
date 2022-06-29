@@ -23,6 +23,8 @@ public class MergeSort {
                 x++;
                 idx1++;
 
+
+
             } else {
                 merged[x] = arr[idx2];
                 x++;

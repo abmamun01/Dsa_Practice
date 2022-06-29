@@ -1,10 +1,3 @@
-import java.util.Collection;
-import java.util.List;
+class practice {
 
-public class practice {
-
-    public static void main(String[] args) {
-        System.out.println("Hello");
- 
-    }
 }

@@ -7,7 +7,7 @@ public class InsertionSort {
     static void insertionSortFunc(int[] arr) {
         int n = arr.length;
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 1; i < n; i++) {
             // Temp jeta te value store korbo karon atar jaygay shift korbo atar ager(Left) r value k
             int temp = arr[i];
 

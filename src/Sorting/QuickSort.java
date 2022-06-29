@@ -31,6 +31,7 @@ public class QuickSort {
                 // if element smaller than pivot is found
                 // swap it with the greatr element pointed by i
                 i++;
+                System.out.println(i+"  "+j);
 
                 // swapping element at i with element at j
                 int temp = arr[i];
@@ -45,6 +46,7 @@ public class QuickSort {
         i++;
         int temp = arr[i];
         arr[i] = pivot;
+
         //Pivot r position
         arr[high] = temp;
         return i; //Pivot index || pivot position
