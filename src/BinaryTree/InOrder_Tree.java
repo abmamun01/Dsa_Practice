@@ -1,9 +1,10 @@
 package BinaryTree;
 
 public class InOrder_Tree {
-
+// 1.left 2.root 3.right
 
     public static void inOrder_Tree(MyBinaryTree.Node root) {
+        //checking if root null
         if (root == null) {
             return;
         }

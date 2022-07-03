@@ -4,27 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c88f874-7936-4ed4-b0e6-842a64847514" name="Changes" comment="DSA">
-      <change afterPath="$PROJECT_DIR$/src/Exercises/BubbleSort2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercises/BubbleSort3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercises/HeapExercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercises/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercises/MergedSort2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercises/MergedSort3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercises/Sort_using_BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercises/Sort_using_Merge_sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercises/Sort_using_quickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercises/qucikSort2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList_LL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Queue_P/Circular_Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Queue_P/QueueClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Queue_P/Queue_LL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/HeapSort.java" afterDir="false" />
+    <list default="true" id="3c88f874-7936-4ed4-b0e6-842a64847514" name="Changes" comment="Updating">
+      <change afterPath="$PROJECT_DIR$/src/Queue_P/Queue_2Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/InOrder_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/InOrder_Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/MyBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/MyBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/PostOrder_Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/PostOrder_Traversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/PreOrder_Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/PreOrder_Traversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Queue_P/Circular_Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Queue_P/Circular_Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Queue_P/QueueClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Queue_P/QueueClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Queue_P/Queue_LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Queue_P/Queue_LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,16 +53,16 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LinkedList_LL">
-    <configuration name="Exercises.HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercises.HeapSort" />
+  <component name="RunManager" selected="Application.MyBinaryTree">
+    <configuration name="MyBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryTree.MyBinaryTree" />
       <module name="dsa_practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercises.*" />
+          <option name="PATTERN" value="BinaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,8 +70,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.HeapSort" />
+    <configuration name="PostOrder_Traversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryTree.PostOrder_Traversal" />
+      <module name="dsa_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PreOrder_Traversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryTree.PreOrder_Traversal" />
+      <module name="dsa_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.SelectionSort" />
       <module name="dsa_practice" />
       <extension name="coverage">
         <pattern>
@@ -88,26 +105,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.InsertionSort" />
-      <module name="dsa_practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedList_LL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList_LL" />
-      <module name="dsa_practice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LinkedList_LL" />
+        <item itemvalue="Application.MyBinaryTree" />
         <item itemvalue="Application.practice" />
-        <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.Exercises.HeapSort" />
-        <item itemvalue="Application.HeapSort" />
+        <item itemvalue="Application.PostOrder_Traversal" />
+        <item itemvalue="Application.PreOrder_Traversal" />
+        <item itemvalue="Application.SelectionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655964226800</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updating">
+      <created>1656524162980</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656524162980</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,7 +172,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DSA" />
-    <option name="LAST_COMMIT_MESSAGE" value="DSA" />
+    <MESSAGE value="Updating" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

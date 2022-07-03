@@ -2,6 +2,7 @@ package BinaryTree;
 
 public class PostOrder_Traversal {
 
+    //1.left 2.right 3.root
     public static void postOrderTree(MyBinaryTree.Node root) {
         if (root == null) {
             return;

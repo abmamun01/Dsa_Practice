@@ -1,6 +1,8 @@
 package BinaryTree;
 
 public class PreOrder_Traversal {
+    //root age e aisa pore tai preOrder
+    //first root 2. left , 3. right
 
     public static void preOrder(MyBinaryTree.Node root) {
 

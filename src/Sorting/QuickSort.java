@@ -53,7 +53,7 @@ public class QuickSort {
     }
 
 
-    public static void quickSortFunc(int[] arr, int low, int high) {
+    public static void quickSortFunc(int[] arr, int low , int high) {
 
         if (low < high) {
 
@@ -66,7 +66,7 @@ public class QuickSort {
              * 1st bar pivot paiya felchi tokhon 2 divide hoiche
              * pivot r age and pivot r pore
              *
-             * akhon ai 2tar modde pivot khujar jonno abar func call korbo
+             * akhon ai 2tar modde pivot khujar jonno  abar func call korbo
              * avabe e colte thakbe
              */
 

@@ -10,6 +10,7 @@ public class MyBinaryTree {
         Node left;
         Node right;
 
+        //constructor
         Node(int data) {
             this.data = data;
             this.left = null;
@@ -25,6 +26,7 @@ public class MyBinaryTree {
 
         // ai function ta sob node gula collect korbe tarpor Root node return korbe
         public static Node buildTree(int[] nodes) {
+
             idx++;
             if (nodes[idx] == -1) {
                 return null;
@@ -44,8 +46,9 @@ public class MyBinaryTree {
             newNode.left = buildTree(nodes);
 
             //akhon newNode right subtree
-            newNode.right = buildTree(nodes);
+            System.out.println("IDX LAST  "+idx);
 
+            //avabe sob gulo node recursively create hoye jabe
 
             return newNode;
 
