@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c88f874-7936-4ed4-b0e6-842a64847514" name="Changes" comment="Updating">
-      <change afterPath="$PROJECT_DIR$/src/Queue_P/Queue_2Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/CountOfNodesClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/HeightOfTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/SumOfNodes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree/InOrder_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/InOrder_Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree/LevelOrder_Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/LevelOrder_Traversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BinaryTree/MyBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/MyBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree/PostOrder_Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/PostOrder_Traversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree/PreOrder_Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/PreOrder_Traversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Queue_P/Circular_Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Queue_P/Circular_Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Queue_P/QueueClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Queue_P/QueueClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Queue_P/Queue_LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Queue_P/Queue_LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +51,28 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MyBinaryTree">
-    <configuration name="MyBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.BinarySearchTree">
+    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearchTree" />
+      <module name="dsa_practice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryTree.LevelOrder_Traversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryTree.LevelOrder_Traversal" />
+      <module name="dsa_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryTree.MyBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinaryTree.MyBinaryTree" />
       <module name="dsa_practice" />
       <extension name="coverage">
@@ -70,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostOrder_Traversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryTree.PostOrder_Traversal" />
+    <configuration name="CountOfNodesClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryTree.CountOfNodesClass" />
       <module name="dsa_practice" />
       <extension name="coverage">
         <pattern>
@@ -83,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreOrder_Traversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryTree.PreOrder_Traversal" />
+    <configuration name="SumOfNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryTree.SumOfNodes" />
       <module name="dsa_practice" />
       <extension name="coverage">
         <pattern>
@@ -92,37 +107,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.SelectionSort" />
-      <module name="dsa_practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice" />
-      <module name="dsa_practice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyBinaryTree" />
-        <item itemvalue="Application.practice" />
-        <item itemvalue="Application.PostOrder_Traversal" />
-        <item itemvalue="Application.PreOrder_Traversal" />
-        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.BinarySearchTree" />
+        <item itemvalue="Application.SumOfNodes" />
+        <item itemvalue="Application.CountOfNodesClass" />
+        <item itemvalue="Application.BinaryTree.LevelOrder_Traversal" />
+        <item itemvalue="Application.BinaryTree.MyBinaryTree" />
       </list>
     </recent_temporary>
   </component>

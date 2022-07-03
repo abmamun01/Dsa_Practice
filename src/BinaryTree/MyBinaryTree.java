@@ -5,18 +5,17 @@ public class MyBinaryTree {
 
     //Node r jonno class create korlam
     static class Node {
-
         int data;
         Node left;
         Node right;
 
-        //constructor
         Node(int data) {
             this.data = data;
             this.left = null;
             this.right = null;
         }
     }
+
 
     public static class BinaryTree {
 
@@ -28,6 +27,8 @@ public class MyBinaryTree {
         public static Node buildTree(int[] nodes) {
 
             idx++;
+            // linearly jokhon idx+ increament hote thakbe r ak akta index par hote thakbo tokhon jodi
+            //-1 kono idx pore tar mane oi index ta null r null hole return kore next recursion r dike jabo
             if (nodes[idx] == -1) {
                 return null;
             }
@@ -46,7 +47,8 @@ public class MyBinaryTree {
             newNode.left = buildTree(nodes);
 
             //akhon newNode right subtree
-            System.out.println("IDX LAST  "+idx);
+            newNode.right = buildTree(nodes);
+
 
             //avabe sob gulo node recursively create hoye jabe
 
